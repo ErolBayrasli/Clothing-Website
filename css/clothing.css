@@ -1,0 +1,37 @@
+
+[class^="col"] {
+    max-height: 200px;
+ 
+}
+
+.img-fluid {
+    max-height: 100%;
+    border: black;
+}
+body {
+    background-color: gray;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/clothing-rack.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .row {
+    min-height: 800px;
+  }
+  h1 {
+    
+  }
+
+  
+
+   
