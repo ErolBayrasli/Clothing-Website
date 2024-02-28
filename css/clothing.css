@@ -1,5 +1,4 @@
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -11,8 +10,8 @@
     z-index: 100;
    
   }
-  .h1 {
-    color: azure;
+  h1 {
+    color: rgb(219, 217, 217);
     
   }
   
@@ -46,13 +45,6 @@
     width: 100%;
   }
   
-[class^="col"] {
-    max-height: 200px;
-    color: #bdb8b8;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
-}
-
 .img-fluid {
     max-height: 100%;
     border: black;
